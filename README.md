@@ -19,9 +19,10 @@ npm install node-hipchat
 
 4. Call hipChatNotify function when needed.
 
-	Ex: watchmen.on('service_down', function(service, state){
+	Ex: 
+	<code>watchmen.on('service_down', function(service, state){
 
 		hipChatNotify(service.url_info,'red','appears to be offline ');
 
-	}
+	}</code>
 
